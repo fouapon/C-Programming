@@ -1,3 +1,12 @@
+//File: 1.c
+//Name: Youmbissie Fouapon Ismail
+//Date: 04/02/2020
+//Description: possibile soluzione esame di 03MNO Algorithmi e Programazionne del 28/Jan/2020 - parte da 12 punti - esercizione 1
+
+
+/*
+Soluzione1
+*/
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -25,6 +34,9 @@ void buildAndPrint(int *V, int N, int **M, int r, int c){
 	return;
 }
 
+/*
+Soluzione2
+*/
 /*
 void buildAndPrint(int *V, int N, int **M, int r, int c){
 	int i,j,l,k;
@@ -56,7 +68,13 @@ void buildAndPrint(int *V, int N, int **M, int r, int c){
 	}
 	return;
 }
+*/
 
+
+
+
+/*
+codice di prova
 */
 int main (){
     int r=3,c=5,N=14, **M;
