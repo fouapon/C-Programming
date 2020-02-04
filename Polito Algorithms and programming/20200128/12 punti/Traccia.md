@@ -35,7 +35,7 @@ link NEW(int item, link left, link right){
 }
 ```
 
-Suggerimento: si realizzi in C l'algoritmo usato nella soluzione dell'esercizio 3 del compito di Teoria. Si tratta di percorrere in parallelo i 2 vettori, ricordando che nel vettore __preorder__ la radice compare per prima, rispetto ai soi sottoalberi e deve essere cercata nel verttore inorder __inoder__, nel quale compare tra i 2 sottoalberi.
+_Suggerimento: si realizzi in C l'algoritmo usato nella soluzione dell'esercizio 3 del compito di Teoria. Si tratta di percorrere in parallelo i 2 vettori, ricordando che nel vettore __preorder__ la radice compare per prima, rispetto ai soi sottoalberi e deve essere cercata nel verttore inorder __inoder__, nel quale compare tra i 2 sottoalberi._
 
 3. (6 punti)
 
