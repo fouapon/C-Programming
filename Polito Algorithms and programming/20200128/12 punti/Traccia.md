@@ -19,7 +19,6 @@ Esempio. Siano r=3, c=5, N=14 e V=(1, 2, 17, 2, 3, 1, 8, 4, 6, 1, 7, 3, 5, 2): l
 ```
 \
 \
-\
 2. (4 punti)
 
 Due vettori interi __preorder__ e __inorder__ di lunghezza __N__ uguale e nota contengono il risultato della visita preorder e inorder di un albero binario. Si scriva una funzione C __buildTrue__ che, ricevuti come parametri i 2 vettori e la lora lunghezza, costruisca l'albero binario che, se visitato respettivamente in preorder e inorder, dà come resiutati i contenuti dei 2 vettori. Dell'albero binario, la funzione restituisce il puntatore di tipo __link__ alla radice. il prototipo della funzione wrapper è uguale sia:
