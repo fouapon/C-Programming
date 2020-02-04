@@ -1,3 +1,12 @@
+//File: 2.c
+//Name: Youmbissie Fouapon Ismail
+//Date: 04/02/2020
+//Description: possibile soluzione esame di 03MNO Algorithmi e Programazionne del 28/Jan/2020 - parte da 12 punti -esercizione 2
+
+
+/*
+Soluzione
+*/
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -28,6 +37,15 @@ link buildTree(int *inorder, int *preorder, int N){
 	return root;
 }
 
+
+
+
+
+
+
+/*
+codice di prova
+*/
 void print_tree(link root, int pos){
     int i;
     if(root==NULL) return;
