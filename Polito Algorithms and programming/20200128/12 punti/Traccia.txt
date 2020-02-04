@@ -1,1 +1,5 @@
-
+1.
+2.
+3. (6 punti)
+Un sistema di monetazione ha n tipi di monete, il cui valore è contenuto in un vettore di interi val.
+Un vettore di n interi disp registra per ogni tipo di mo
