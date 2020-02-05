@@ -89,6 +89,8 @@ int main(){
     int inorder[]={2,7,4,1,5,3,6};
     int preorder[]={1,2,4,7,3,5,6};
     int N=7;
+	
     print_tree(buildTree(inorder,preorder,N));
+	
     return 0;
 }
