@@ -28,7 +28,7 @@ link buildTreeR(int *inorder, int *preorder,int *pos, int a , int b ){
     }
     link left = buildTreeR(inorder,preorder,pos, a, i);
     link right = buildTreeR(inorder,preorder,pos, i+1, b);
-	return NEW(preorder[p], left, right);;
+    return NEW(preorder[p], left, right);
 }
 /*
 link buildTreeR(int *inorder, int *preorder,int *pos, int a , int b ){
