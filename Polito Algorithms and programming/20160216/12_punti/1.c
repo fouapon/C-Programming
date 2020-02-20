@@ -1,3 +1,9 @@
+//File: 1.c
+//Name: Youmbissie Fouapon Ismail
+//Date: Feb 20, 2020
+//Description: possibile soluzione esame di 03MNO Algorithmi e Programazionne del 26/Feb/2020 - parte da 12 punti - esercizio 1
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
