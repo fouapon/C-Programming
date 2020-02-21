@@ -3,13 +3,13 @@
 
 1. (2 punti)
 
-Sia dato un vettore __V__ di __N__ interi i cui elementi rapresentano, in formato compresso, sequeza di numeri che deve essere inserita in na matrice M di interi di __r__ righe e __c__ colonne secondo la strategia row-major, cioè per righe... Per decodificare la swquenza, gli interi del vettore devono essere considerati a copie (V[0], V[1]), (V[2], V[3]), (V[4], V[5]), etc. Il secondo elemento della copia rapresenta il numero di volte con cui il primo deve essere inserito in __celle adiacenti sulla stessa riga della matrice__ M.
+Sia dato un vettore __V__ di __N__ interi i cui elementi rapresentano, in formato compresso, sequenza di numeri che deve essere inserita in una matrice M di interi di __r__ righe e __c__ colonne secondo la strategia row-major, cioè per righe... Per decodificare la sequenza, gli interi del vettore devono essere considerati a copie (V[0], V[1]), (V[2], V[3]), (V[4], V[5]), etc. Il secondo elemento della copia rapresenta il numero di volte con cui il primo deve essere inserito in __celle adiacenti sulla stessa riga della matrice__ M.
 
 Si scriva una funzione C con il seguente prototipo che riempia la matrice e ne stampi il contenuto:
 
 `void buildAndPrint(int *V, int N, int **M, int r, int c)`
 
-Si assuma corretta il contenuto del vettore V, quidi compatibile con le dimensioni della matrice M.
+Si assuma corretta il contenuto del vettore V, quindi compatibile con le dimensioni della matrice M.
 
 Esempio. Siano r=3, c=5, N=14 e V=(1, 2, 17, 2, 3, 1, 8, 4, 6, 1, 7, 3, 5, 2): la matrice M avrà il seguente contenuto
 ```
